@@ -1,12 +1,9 @@
 
-
-
-
 describe('Jungle app', () => {
     beforeEach(() => {
         console.log('Before visiting the page');
         
-        cy.visit('http://localhost:3000/', {
+        cy.visit('/', {
             auth: {
               username: 'Jungle',
               password: 'book',
@@ -17,11 +14,23 @@ describe('Jungle app', () => {
           
 
     it("There is products on the page", () => {
-        cy.debug();
+      cy.visit('/categories/1',{
+        auth: {
+          username: 'Jungle',
+          password: 'book',
+        }
+    });
+    
          cy.get(".products article").should("be.visible");
       });
 
-    //   it("There is 2 products on the page", () => {
-    //     cy.get(".products article").should("have.length", 2);
-    //   });
+      it("There is 2 products on the page", () => {
+        cy.visit('/categories/1',{
+          auth: {
+            username: 'Jungle',
+            password: 'book',
+          }
+      });
+        cy.get(".products article").should("have.length", 2);
+      });
 })
