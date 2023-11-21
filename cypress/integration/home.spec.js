@@ -33,4 +33,4 @@ describe('Jungle app', () => {
       });
         cy.get(".products article").should("have.length", 2);
       });
-})
+ })
