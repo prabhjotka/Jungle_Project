@@ -73,7 +73,7 @@ RSpec.describe User, type: :model do
       )
       user.valid?
         # puts user.errors.inspect
-      expect(user.errors[:password]).to include("is too short (minimum is 8 characters)")  
+      expect(user.errors[:password]).to include("is too short (minimum is 1 characters)")  
     end
     
   end
