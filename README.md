@@ -30,4 +30,15 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - PostgreSQL 9.x
 - Stripe
 
+!["Home page rendering products"](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/Homepage.png) 
 
+!["My cart page displaying itmes in cart "](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/Mycartpage.png)
+
+!["Admin page to add more categories"](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/addcategoryAdminpage.png)
+
+!["Order page display order information"](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/orderpage.png)
+
+
+!["user sign up page"](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/userLoginpage.png)
+
+!["user sign in"](https://raw.githubusercontent.com/prabhjotka/Jungle_Project/85568b5e8e270cbd1ca9a3c07145216b2d2d8d8e/docs/userSigninpage.png)
