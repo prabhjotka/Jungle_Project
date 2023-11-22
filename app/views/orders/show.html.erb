@@ -18,10 +18,14 @@
           <th>Unit Price</th>
           <th>Quantity</th>
           <th>Price</th>
+         
         </tr>
       </thead>
       <tbody>
         <%= render partial: 'line_item', collection: @order.line_items %>
+        <tr>
+        <th>Total amount</th>
+        <th colspan=5><%= humanized_money_with_symbol  @order.total_cents/100.0, precision: 2%></th></tr>
       </tbody>
       
     </table>

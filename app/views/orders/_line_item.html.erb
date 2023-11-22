@@ -8,6 +8,7 @@
   <td><%= line_item.product.description %></td>
   <td><%= humanized_money_with_symbol line_item.product.price %></td>
   <td><%= line_item.quantity %></td>
-  <td><%= humanized_money_with_symbol line_item.product.price * line_item.quantity %></td>
+  <td><%= humanized_money_with_symbol line_item.total_price %></td>
+  
 </tr>
 
